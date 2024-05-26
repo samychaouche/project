@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibilité Web pour les Malvoyants</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Accessibilité Web pour les Malvoyants</h1>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>
+                L'accessibilité web permet aux personnes handicapées, y compris les malvoyants, d'utiliser les sites web. 
+                Cet article explique comment rendre un site web accessible aux malvoyants et comment tester l'accessibilité des sites web.
+            </p>
+        </section>
+
+        <section id="guidelines">
+            <h2>Guidelines pour l'accessibilité</h2>
+            <ul>
+                <li><strong>Utiliser des balises sémantiques :</strong> Les balises HTML sémantiques (comme &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;footer&gt;) qui permettent aux lecteurs d'écran à mieu comprendre la structure de votre page.</li>
+                <li><strong>Ajouter des descriptions alternatives aux images :</strong> Utilisez l'attribut <code>alt</code> pour décrire le contenu des images aux personnes malvoyantes.</li>
+                <li><strong>Assurer un bon contraste de couleur :</strong> Ce qui est important aux personnes malvoyantes donc il faut vérifier que le texte est suffisamment contrasté par rapport à l'arrière-plan.</li>
+                <li><strong>Utiliser des labels pour les formulaires :</strong> Les labels sont des éléments importants pour les champs des formulaires, ils aident les lecteurs à annoncer correctement chaque champs du formulaire.</li>
+                <li><strong>Navigation clavier :</strong> il faut assurer que le site est navigable entièrement au clavier, cela en le parcourant avec clavier uniquement.</li>
+                <li><strong>Aria Roles :</strong> Utilisez les rôles ARIA pour ajouter des informations supplémentaires sur la structure de la page pour les technologies d'assistance.</li>
+            </ul>
+        </section>
+
+        <section id="testing">
+            <h2>Tester l'accessibilité</h2>
+            <p>
+                Pour tester l'accessibilité de votre site web, vous pouvez utiliser les outils suivants :
+            </p>
+            <ul>
+                <li><a href="https://wave.webaim.org/" target="_blank">WAVE</a> : Un outil qui vous aide à évaluer l'accessibilité de votre contenu web.</li>
+                <li><a href="https://accessibilityinsights.io/" target="_blank">Accessibility Insights</a> : Un ensemble d'outils pour tester l'accessibilité des sites web, disponibles en extension de navigateur.</li>
+                <li><a href="https://www.deque.com/axe/" target="_blank">Axe</a> : Une extension de navigateur qui vous permet de tester l'accessibilité directement dans vos outils de développement.</li>
+                <li><a href="https://developer.chrome.com/docs/lighthouse/accessibility/" target="_blank">Lighthouse</a> : Un outil intégré dans les DevTools de Chrome pour auditer les performances et l'accessibilité des pages web.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Réalisé par Samy Chaouche</p>
+    </footer>
+</body>
+
+</html>
